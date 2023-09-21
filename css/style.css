@@ -1,0 +1,595 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container_flud {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+p {
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  /* font-family: "Lora", serif; */
+  margin-bottom: 25px;
+  letter-spacing: 0.05em;
+}
+.mid button {
+  font-family: "Bebas Neue", sans-serif;
+  padding: 18px 28px;
+  margin-top: 20px;
+  color: #fff;
+  border:2px solid #9fc4ce;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 8px;
+  background-color: #9fc4ce;
+  cursor: pointer;
+
+}
+.mid button:hover{
+  background-color: white;
+  color:#9fc4ce ;
+  transition: 0.5s;
+}
+li{
+  list-style: none;
+}
+h1,
+h2,
+h5 {
+  font-family: "Lora", serif;
+}
+.navbar {
+  width: 100%;
+  /* border: 2px solid red; */
+  height: 25%;
+  /* max-width: 1200px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative;  */
+
+  /* margin: 0 auto; */
+}
+.textCenter{
+  text-align: center;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 999999999;
+  background: rgba(0, 0, 0, 0.548);
+}
+.logo img {
+  width: 80px;
+  margin: 0px 50px;
+  padding-top: 10px;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+.menu ul a {
+  display: block;
+  text-decoration: none;
+  padding: 0px 20px;
+  margin: 34px 10p;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  /* cursor: pointer; */
+}
+.menu ul a:hover {
+  color: #9fc4ce;
+  /* text-decoration: underline; */
+  transition: 0.5s;
+}
+
+.login {
+  display: flex;
+}
+.login img {
+  width: 20px;
+  margin: 20px 5px;
+  padding: 0px 2px;
+}
+.btn button {
+  padding: 18px 40px;
+  margin-right: 25px;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+/* navigation end */
+
+.banner {
+  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("/img/banner_2.jpg") no-repeat center center/cover;
+  padding: 165px 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 50px; */
+  color: #fff;
+  /* margin-top: 125px; */
+}
+
+.head_1 {
+  font-size: 108px;
+  font-weight: 400;
+}
+.contact_us {
+  margin-top: 50px;
+  /* font-weight: bold; */
+}
+.contact_us a {
+  text-decoration: none;
+  color: #fff;
+  /* font-family: "Bebas Neue", sans-serif; */
+  font-size: 15px;
+  font-family: sans-serif;
+  letter-spacing: 0.15em;
+}
+.home p {
+  font-family: sans-serif;
+  letter-spacing: 0.15em;
+}
+.container2 {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+.first_image img {
+  width: 100%;
+  /* margin: 0px 500px; */
+  padding: 0px 15px;
+}
+.mid {
+  padding: 0px 15px;
+  width: 100%;
+}
+.mid h5 {
+  font-size: 20px;
+  color: rgb(213, 170, 253);
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.mid h1 {
+  font-size: 48px;
+  /* background-color: rgb(225, 201, 247); */
+  padding: 10px 0px;
+  margin-bottom: 30px;
+}
+
+.aboutus {
+  padding: 100px 0;
+}
+
+.aboutus .container2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.aboutus .container2 > div {
+  width: 28%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus .container2 .mid {
+  width: 50%;
+}
+
+.contactus {
+  background: url("../img/feximage.jpg") no-repeat center center/cover;
+  padding: 165px 0px;
+  background-attachment: fixed;
+}
+.contactus .container2 {
+  color: #fff;
+  text-align: center;
+}
+.contactus .container2 h5 {
+  font-size: 16px;
+  font-family: sans-serif;
+
+  font-weight: 400;
+  margin-bottom: 16px;
+  letter-spacing: 0.15em;
+
+  /* padding-bottom: 16px; */
+}
+.contactus .container2 h1 {
+  font-size: 48px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+.menubar {
+  padding: 110px 0px;
+  /* text-align: center; */
+}
+.menubar h5 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #9fc4ce;
+  font-weight: 400;
+  margin-bottom: 16px;
+  letter-spacing: 0.15em;
+}
+.menubar h1 {
+  font-size: 48px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.menubar p {
+  font-family: sans-serif;
+  margin: 0px 264px;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+.foodmenu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foodmenu ul a {
+  display: block;
+  text-decoration: none;
+  padding: 50px 40px;
+  /* margin: 34px 10p; */
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+.foodmenu ul a:hover {
+  color: #9fc4ce;
+  text-decoration: underline;
+}
+.menubar .menu_deatil ul{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  
+}
+.menubar .menu_deatil ul li{
+  border-bottom: 1px dotted rgb(45, 45, 45);
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+}
+.menubar .menu_deatil .priceing{
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Lora", serif;
+  font-style: italic;
+}
+.menubar .menu_deatil h4{
+  font-size: 16px;
+  font-family: "Lora", serif;
+  padding: 10px 0px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+
+}
+.menubar .menu_deatil .menu-text{
+  font-style: italic;
+  font-size: 16px;
+  /* padding-bottom:10px ; */
+  /* margin-bottom:10px ; */
+
+}
+.prasnal_plase{
+  background: url("../img/restaurant-interior.jpg")no-repeat center center/cover;
+  padding: 150px 0px;
+  background-attachment: fixed;
+}
+.prasnal_plase .container2 h4{
+  font-size: 16px;
+  font-family: sans-serif;
+color: #fff;
+  font-weight: 400;
+  margin-bottom: 16px;
+  letter-spacing: 0.15em;
+}
+.prasnal_plase .container2 h1{
+  font-size: 48px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: #fff;
+
+}
+.team{
+  padding: 80px 0px;
+  
+}
+.team .container2{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0px  0px; */
+  gap: 10px;
+}
+.team .container2 .team_deatils{
+  width: 50%;
+  text-align: center;
+}
+.team  .img img{
+  width: 45%;
+}
+.team  .img{
+  width: 50%;
+  gap: 50px;
+  text-align: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.team_deatils {
+  padding: 50px 0px;
+  /* width: 100%; */
+}
+.team_deatils h5 {
+  font-size: 16px;
+  color: rgb(213, 170, 253);
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.team_deatils h1 {
+  font-weight: 400;
+  font-size: 48px;
+  /* background-color: rgb(225, 201, 247); */
+  padding: 10px 0px;
+  margin-bottom: 48px;
+}
+
+.team_deatils button {
+  font-family: "Bebas Neue", sans-serif;
+  padding: 18px 30px;
+  margin-top: 20px;
+  color: #fff;
+  border:2px solid #9fc4ce;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 8px;
+  background-color: #9fc4ce;
+  cursor: pointer;
+
+}
+.team_deatils button:hover{
+  background-color: white;
+  color:#9fc4ce ;
+  transition: 0.5s;
+}
+.team_deatils p{
+  font-size: 17px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 25px;
+  letter-spacing: 0.10em;
+  line-height: 25px;
+}
+.clients{
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../img/top-view-food-frame-with-copy-space.jpg") no-repeat center center/cover;
+  padding: 80px 0px;
+  background-attachment: fixed; 
+}
+.clients .container2 {
+  color: #fff;
+  text-align: center;
+}
+.clients .container2 h5 {
+  font-size: 16px;
+  font-family: sans-serif;
+
+  font-weight: 400;
+  margin-bottom: 16px;
+  letter-spacing: 0.15em;
+  
+  /* padding-bottom: 16px; */
+}
+.clients .container2 h1 {
+  margin-bottom: 48px;
+  font-size: 48px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  
+}
+.clients .container2 p{
+  line-height: 1.5em;
+  font-size: 26px;
+  /* font-family: "Lora", serif; */
+  font-style: italic;
+  font-family: sans-serif;
+  margin-bottom: 48px;
+  padding: 0px 100px;
+}
+.clients .container2 h6{
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-top: 16px;
+  border-top: 2px solid white;
+  margin: 0px 600px;
+  font-weight: 400;
+}
+.client_detail .head_top {
+  text-align: center;
+
+}
+.client_detail .container2  {
+  display: flex;
+  width: 100%;
+  
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  gap: 10px;
+}
+.client_detail {
+  padding: 100px 100px;
+
+  /* margin: 0px 110px; */
+  
+}
+.client_detail .coloum {
+  text-align: center;
+
+}
+.client_detail .coloum input{
+padding: 16px 16px;
+  margin: 30px 25px 24px;
+  width: 380px;
+  height: 50px;
+  font-size: 100%;
+  border: none;
+  background-color: #f2f2f2;
+}
+.client_detail .message textarea{
+  width: 95%;
+  font-size: 135%;
+  margin-bottom:25px;
+padding: 16px 16px;
+border: none;
+background-color: #f2f2f2;
+}
+.client_detail .bottom_btn{
+  text-align: center;
+}
+
+.client_detail .head_top h5 {
+  font-size: 16px;
+  font-family: sans-serif;
+color: #9fc4ce;
+  font-weight: 400;
+  margin-bottom: 16px;
+  
+  letter-spacing: 0.15em;
+  /* padding-bottom: 16px; */
+}
+.client_detail .head_top h1 {
+  margin-bottom: 48px;
+  font-size: 48px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  
+}
+.client_detail .container2 h4{
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 32px;
+}
+.client_detail .container2 p{
+  /* letter-spacing: 0.10em; */
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 25px;
+  /* padding: 0px 15px; */
+
+}
+
+.client_detail .container2 .user_detali{
+  padding: 0px 30px;
+}
+.client_detail .bottom_btn button{
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  /* display: inline-block; */
+  color: #ffffff;
+  border: 2px solid #9fc4ce;
+  padding: 20px 24px;
+  background: #9fc4ce;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}
+.client_detail .bottom_btn button:hover{
+  background-color: white;
+  color:#9fc4ce ;
+  transition: 0.5s;
+
+}
+.footer{
+  background-color: black;
+  color: #999999;
+  padding-top: 50px;
+  font-size: 16px;
+
+  
+}
+.footer .container2 .food_address{
+  display: flex;
+  justify-content: space-between;
+ /* text-align: center; */
+}
+.footer .last_logo{
+}
+.footer .food_address>div{
+  width: 50%;
+
+}
+.footer .food_address p{
+  font-size: 16px;
+  /* font-family: sans-serif; */
+  font-family: Work Sans, sans-serif;
+  /* line-height: 50px; */
+}
+.footer .food_address h5{
+  font-family: Work Sans, sans-serif;
+  font-size: 16px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: white;
+  
+}
+.footer .food_address img{
+  width: 90px;
+  /* margin-bottom: 24px; */
+  /* padding-bottom:100px; */
+}
+.footer .food_address span{
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-family: Work Sans, sans-serif;
+  line-height: 25px;
+}
+.footer .end{
+  letter-spacing: 0.05em;
+  /* margin: 50 px 50px; */
+  padding: 30px 85px;
+  font-size: 12px;
+}
