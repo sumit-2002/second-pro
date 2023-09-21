@@ -115,7 +115,7 @@ h5 {
 /* navigation end */
 
 .banner {
-  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("/img/banner_2.jpg") no-repeat center center/cover;
+  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../img/banner_2.jpg") no-repeat center center/cover;
   padding: 165px 0;
 }
 
