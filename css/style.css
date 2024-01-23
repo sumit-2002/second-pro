@@ -46,23 +46,19 @@ h5 {
 }
 .navbar {
   width: 100%;
-  /* border: 2px solid red; */
   height: 25%;
-  /* max-width: 1200px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: relative;  */
 
-  /* margin: 0 auto; */
 }
 .textCenter{
   text-align: center;
 }
 .header {
-  width: 100%;
-  /* z-index:-9; */
-  /* position: fixed; */
+  width:0 auto;
+  z-index: 999999;
+  position: fixed;
   background: rgba(110, 110, 110, 0.548);
 }
 header .container{
