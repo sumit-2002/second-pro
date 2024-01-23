@@ -63,7 +63,7 @@ h5 {
   position: fixed;
   width: 100%;
   z-index: 999999999;
-  background: rgba(0, 0, 0, 0.548);
+  background: rgba(110, 110, 110, 0.548);
 }
 .logo img {
   width: 80px;
@@ -71,6 +71,7 @@ h5 {
   padding-top: 10px;
 }
 .menu ul {
+  width: 100%;
   list-style: none;
   display: flex;
   /* align-items: center;
@@ -593,3 +594,261 @@ color: #9fc4ce;
   padding: 30px 85px;
   font-size: 12px;
 }
+
+/* -----------responsive-------------------------------------------------------------------------------------- */
+
+@media(max-width:426px){
+  .header {
+    width: 26.6rem;
+    padding: 0 2rem;
+  }
+  .container .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container .navbar .logo {
+    order: 2;
+  }
+  .container .navbar .logo img{
+    width: 3rem;
+    margin: 0;
+    position: relative;
+  }
+  .container .navbar .menu {
+    order: 3;
+    padding: 10px 0;
+  
+  }
+  .container .navbar .menu ul a {
+    font-size: .6rem;
+    width: 100%;
+
+    padding: 0 7px;
+  }
+  .container .navbar .login{
+    order: 1;
+    margin: 0;
+    right: 25px;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    position: absolute;
+  }
+  .container .navbar .login .btn button{
+    margin: 0;
+   padding: 8px 10px;
+   font-size: 11px;
+
+  }
+  /* -----------end navbar-------------------------------------------- */
+
+  .banner{
+    padding: 100px 0;
+  }
+  .banner .container_flud{
+    padding: 0 2rem;
+    
+  }
+  .banner .container_flud .home h1{
+    font-size: 6rem;
+  }
+  .banner .container_flud .home p{
+    text-align: center;
+    width: 100%;
+  }
+  /* ----------end banner-------------------------------------------------- */
+   
+  .aboutus .container2{
+    padding: 0 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .aboutus .container2 .first_image img{
+    padding: 0;
+  }
+  .aboutus .container2 .first_image{
+    order: 3;
+    width: 100%;
+  }
+  .aboutus .container2 .mid{
+    order: 1;
+    width: 100%;
+    padding: 0;
+  }
+  .aboutus .container2 .mid h1{
+    font-size: 2.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .aboutus .container2 .mid button{
+    padding: 10px;
+    font-size: 12px;
+    margin: 0;
+  }
+  /* ----------------end aboutus ----------------------------------------- */
+
+  .contactus{
+    padding: 100px 0;
+  }
+  .contactus .container2 h1{
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  /*----------end .contactus-------------------------------------------------  */
+  .menubar .container{
+    padding: 0 2rem;
+    
+  }
+  .menubar .container h1{
+    margin-bottom: 20px; 
+  }
+  .menubar .container p{
+    width: 100%;
+    margin: 0;
+  }
+  .menubar .container .foodmenu ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .menubar .container .foodmenu ul a{
+    /* width: 100%; */
+    padding: 25px 0  ;
+    font-size: 13px;
+  }
+  /* ------------end menubar---------------------------------------------- */
+  
+  .prasnal_plase{
+    /* padding: 100px 0; */
+  }
+  .prasnal_plase .container2 h1{
+    font-size: 2.5rem;
+  }
+  /* ------------end prasnal_plase---------------------------------------------- */
+  .team .container2 {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .team .container2 .team_deatils h1{
+    /* display: block; */
+    width: 20rem;
+    text-align: start;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  .team .container2 .team_deatils {
+    width: 100%;
+    text-align: start;
+  }
+  .team .container2 .team_deatils button {
+    padding: 10px;
+    margin: 0;
+  }
+  .team .container2 .img img{
+    width: 11rem;
+  }
+  .team .container2 .img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
+  /* ---------------------end team------------------------------------------------- */
+
+  .clients{
+    padding: 50px 0;
+    
+  }
+  .clients .container2 h6{
+    margin: 0 150px;
+    padding: 5px 0;
+  }
+  .clients .container2 {
+  padding: 0 2rem;
+  }
+  .clients .container2 h1{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  .clients .container2 p{
+    width: 100%;
+    padding: 0;
+    font-weight: 400;
+    /* margin: 0; */
+    font-size: 22px;
+    line-height: normal;
+  }
+  /* ------------end clients------------------------------------------- */
+   
+  .client_detail{
+    padding: 5rem 2rem;
+  }
+  .client_detail .head_top h1{
+    font-size: 2.5rem;
+  }
+  .client_detail .container2{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .client_detail .container2 .user_detali{
+    padding: 0;
+    
+  }
+  .client_detail .container2 .user_detali h4{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .client_detail .coloum {
+    width: 100%;
+
+  }
+  .client_detail .coloum input{
+    margin: 10px 0;
+  }
+  .client_detail .bottom_btn button{
+    padding: 12px;
+  }
+  /* -----------------end client detail------------------------------------- */
+
+.footer .container2{
+  padding: 0 2rem;
+  
+}
+.footer .container2 .food_address .last_logo img{
+  width: 90%;
+  height: 90%;
+}
+.footer .container2 .food_address .last_logo {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  justify-content:center ;
+  align-items: center;
+}
+
+
+.footer .container2 .food_address h5 {
+  margin: 10px 0;
+}
+.footer .container2 .food_address {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container2 .food_address>div {
+  width: 100%;
+}
+.footer  .end{
+  border-top: 1px solid white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+}
+
