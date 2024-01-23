@@ -556,8 +556,7 @@ color: #9fc4ce;
   justify-content: space-between;
  /* text-align: center; */
 }
-.footer .last_logo{
-}
+
 .footer .food_address>div{
   width: 50%;
 
@@ -598,8 +597,9 @@ color: #9fc4ce;
 /* -----------responsive-------------------------------------------------------------------------------------- */
 
 @media(max-width:426px){
-  .header {
-    width: 26.6rem;
+  .container {
+    /* width: 36.6rem; */
+    width: 100%;
     padding: 0 2rem;
   }
   .container .navbar {
@@ -609,6 +609,7 @@ color: #9fc4ce;
   }
   .container .navbar .logo {
     order: 2;
+    width: 100%;
   }
   .container .navbar .logo img{
     width: 3rem;
@@ -645,6 +646,7 @@ color: #9fc4ce;
 
   .banner{
     padding: 100px 0;
+    width: 100%;
   }
   .banner .container_flud{
     padding: 0 2rem;
