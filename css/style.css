@@ -629,7 +629,7 @@ color: #9fc4ce;
   .container .navbar .login{
     order: 1;
     margin: 0;
-    right: 25px;
+    right: 40px;
     display: flex;
     justify-content: flex-end ;
     align-items: center;
