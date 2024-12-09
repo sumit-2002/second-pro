@@ -126,6 +126,9 @@ h5 {
   color: #fff;
   /* margin-top: 125px; */
 }
+#navbar{
+  position: fixed;
+}
 
 .head_1 {
   font-size: 108px;
