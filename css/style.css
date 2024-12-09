@@ -703,7 +703,7 @@ color: #9fc4ce;
   .container .navbar .login{
     order: 1;
     margin: 0;
-    right: 40px;
+    right: 165px;
     display: flex;
     justify-content: flex-end ;
     align-items: center;
@@ -718,7 +718,7 @@ color: #9fc4ce;
   /* -----------end navbar-------------------------------------------- */
 
   .banner{
-    padding: 100px 0;
+    padding: 100px 0 30px 0;
     width: 100%;
   }
   .banner .container_flud{
@@ -767,7 +767,7 @@ color: #9fc4ce;
   /* ----------------end aboutus ----------------------------------------- */
 
   .contactus{
-    padding: 100px 0;
+    padding: 60px 0;
   }
   .contactus .container2 h1{
     width: 100%;
@@ -798,7 +798,7 @@ color: #9fc4ce;
   /* ------------end menubar---------------------------------------------- */
   
   .prasnal_plase{
-    /* padding: 100px 0; */
+    padding: 60px 0;
   }
   .prasnal_plase .container2 h1{
     font-size: 2.5rem;
@@ -826,13 +826,14 @@ color: #9fc4ce;
     margin: 0;
   }
   .team .container2 .img img{
-    width: 11rem;
+    /* width: 11rem; */
   }
   .team .container2 .img {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 0;
+    gap: 20px;
   }
   /* ---------------------end team------------------------------------------------- */
 
@@ -856,13 +857,14 @@ color: #9fc4ce;
     padding: 0;
     font-weight: 400;
     /* margin: 0; */
-    font-size: 22px;
+    font-size: 16px;
     line-height: normal;
   }
   /* ------------end clients------------------------------------------- */
    
   .client_detail{
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
+
   }
   .client_detail .head_top h1{
     font-size: 2.5rem;
@@ -927,7 +929,7 @@ color: #9fc4ce;
 .toggle_icon {
   display:block;
 }
-.menu, .btn{
+.menu{
   display: none;
 }
 
@@ -939,5 +941,35 @@ text-align: center;
   color: #fff;
   /* text-decoration: none; */
 }
+.team .img img {
+  width: 100%;
+}
+.client_detail .coloum input {
+  width: 100%;
+}
+.client_detail .message textarea {
+  width: 100%;
+}
+.team {
+  padding: 30px 0px;
+}
+.team_deatils {
+  padding: 0px 0px;
+  /* width: 100%; */
+}
+.aboutus {
+  padding: 30px 0;
+}
+.menubar {
+  padding: 30px 0px;
+  /* text-align: center; */
+}
+.footer {
+  padding-top: 30px;
+}
 }
 
+@media(max-wdth:376px) {
+
+  
+}
