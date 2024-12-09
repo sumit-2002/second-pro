@@ -11,6 +11,9 @@
   max-width: 1500px;
   margin: 0 auto;
 }
+a{
+  text-decoration: none;
+}
 p {
   font-size: 15px;
   font-family: "Bebas Neue", sans-serif;
@@ -59,7 +62,7 @@ h5 {
   width:100%;
   /* z-index: 999999;
   position: fixed; */
-  background: rgba(93, 93, 93, 0.694);
+  background: rgb(93, 93, 93);
 }
 
 .logo img {
@@ -129,7 +132,78 @@ h5 {
 #navbar{
   position: fixed;
 }
+/* ------------------toggle--------------- */
 
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.toggle span {
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  border-radius: 4px;
+  transition: 0.5s;
+  top: 19px;
+  background-color: #fff;
+  right: 8px;
+  padding: 0;
+}
+
+.toggle span:nth-child(1) {
+  transform: translateY(-10px);
+  width: 25px;
+}
+
+.toggle.active span:nth-child(1) {
+  width: 25px;
+  transform: translateY(0px) rotate(45deg);
+  transition-delay: 0.125s;
+}
+
+.toggle span:nth-child(2) {
+  transform: translateY(10px);
+  width: 25px;
+}
+
+.toggle.active span:nth-child(2) {
+  width: 25px;
+  transform: translateY(0px) rotate(315deg);
+  transition-delay: 0.25s;
+}
+
+.toggle.active span:nth-child(3) {
+  transform: translateX(60px);
+}
+
+.menulink {
+  background: rgb(93, 93, 93);
+  padding: 20px 0;
+  width: 60%;
+  display: block;
+  position: absolute;
+  right: -500px;
+  transition: 0.5s;
+  top: 60px;
+  li {
+    padding: 10px 0;
+  }
+}
+
+.toggle_icon {
+  display: none;
+  /* } */
+}
+
+/* ------------------toggle-end-------------- */
 .head_1 {
   font-size: 108px;
   font-weight: 400;
@@ -594,21 +668,20 @@ color: #9fc4ce;
   font-size: 12px;
 }
 
+
+
 /* -----------responsive-------------------------------------------------------------------------------------- */
 
 @media(max-width:426px){
   .container {
-    /* width: 36.6rem; */
     width: 100%;
     padding: 0 2rem;
   }
   .container .navbar {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
   }
   .container .navbar .logo {
-    order: 2;
     width: 100%;
   }
   .container .navbar .logo img{
@@ -851,6 +924,20 @@ color: #9fc4ce;
   padding: 10px 0;
   text-align: center;
 }
+.toggle_icon {
+  display:block;
+}
+.menu, .btn{
+  display: none;
+}
 
+.menulink ul{
+
+text-align: center;
+}
+ a{
+  color: #fff;
+  /* text-decoration: none; */
+}
 }
 
